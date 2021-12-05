@@ -1,7 +1,7 @@
 # Getting Started
 
 ## Introduction
-This wiki is a fork of the (Slippi-wiki)[https://github.com/project-slippi/slippi-wiki] meant to assist developers interested in learning about and contributing to the Brawlback codebase. 
+This wiki is a fork of the [Slippi-wiki](https://github.com/project-slippi/slippi-wiki) meant to assist developers interested in learning about and contributing to the Brawlback codebase. 
 
 <i> What this document is: </i> <br>
 * An overview of the various components that make up the Brawlback Project. 
