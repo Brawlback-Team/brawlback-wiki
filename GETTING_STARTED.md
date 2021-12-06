@@ -38,7 +38,6 @@ Via [EXI communication](https://github.com/WhiteTPoison5/Ishiiruka/blob/slippi/S
 ## Guides & Resources
 
 ### Brawl Modding and Assembly
-Brawl Modding and Assembly
 * [SSBB Modding Wiki](https://brawlre.github.io/public/) - Created by fudgepop01, a wiki for all things Brawl modding!
 * [Custom Brawl Modding Discord](https://discord.gg/GbxJhbv) - A Discord where you can get all your questions answered about Brawl modding.
 * [MKWii's Go From Noob to Veteran ASM Coder Guide Repo](https://mkwii.com/showthread.php?tid=1114) - A bunch of useful guides to learning ASM and related concepts, not necessarily PPC or Melee specific.
@@ -49,13 +48,13 @@ Brawl Modding and Assembly
 * [Assembler Tutorial](http://wiibrew.org/wiki/Assembler_Tutorial) - A wii modding specific guide to PPC, and its instructions. 
 * [PowerPC Instruction Set](https://www.ibm.com/support/knowledgecenter/en/ssw_aix_71/assembler/idalangref_ins_set.html) - Indepth documentation about PowerPC instructions and their behavior.
 * [PowerPC Instruction Set Reference Card](http://www.tentech.ca/downloads/other/PPC_Quick_Ref_Card-Rev1_Oct12_2010.pdf) - An overview of various PowerPC instructions and their behavior.
-Rollback
+### Rollback
 * [GGPO Article on Rollback](https://drive.google.com/file/d/1cV0fY8e_SC1hIFF5E1rT8XRVRzPjU8W9/view) - An article from GGPO on how rollback functions specific to emulators.
 * [Rollback Pseudocode](https://gist.github.com/rcmagic/f8d76bca32b5609e85ab156db38387e9) - Some pseudocode used to show the basics of rollback.
 * [GDC Talk on Rollback in MK and Injustice 2](https://youtu.be/7jb0FOcImdg) (video) - A talk Netherrealm Games (Mortal Kombat, Injustice) gave on rollback.
 * [Rollback in INVERSUS](http://blog.hypersect.com/rollback-networking-in-inversus/) - A great blog post from the developer of the game INVERSUS on implementing rollback and the different challenges within.
 * [Fightin' Words Rollback In-depth Guide](https://ki.infil.net/w02-netcode.html) - Another great blog post on the intricacies of rollback.
-Slippi
+### Slippi
 * [Slippi's Wiki](https://github.com/project-slippi/slippi-wiki) - Slippi's wiki
 * [Slippi's Main GitHub](https://github.com/project-slippi/project-slippi) - Slippi's main repo
 * [Slippi Community Discord](http://discord.gg/pPfEaW5) - Slippi's Discord to ask questions about development
