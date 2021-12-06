@@ -18,12 +18,12 @@ The Brawlback project is comprised of a number of different applications, each w
 <b> [Ishiiruka](https://github.com/WhiteTPoison5/Ishiiruka) </b> - A modified version of the Dolphin emulator. This project is responsible for handling things like: communication with the matchmaking server, writing Brawlback replay files, passing external data to the emulated game, and playing replays. 
 <br> <i> Languages: </i> C++ 
 
-<b> [Brawlback SSBM ASM](https://github.com/WhiteTPoison5/brawlback-asm) </b> - A series of ASM mods that are applied to Brawl in order make Brawlback work.
+<b> [Brawlback SSBB ASM](https://github.com/WhiteTPoison5/brawlback-asm) </b> - A series of ASM mods that are applied to Brawl in order make Brawlback work.
 <br> <i> Languages: </i> PPC Assembly
 
 ### The Workflow
 
-The user launches <b>Ishiiruka</b> and selects an .iso of Brawl to emulate. Upon lauching the emulation of Brawl, Ishiiruka injects the modifications made by <b> Brawlback ASM </b>. As the user interacts with the game, information is exchanged between Ishiiruka and the Brawlback SSBM ASM code. As a user begins an online match, Ishiiruka starts a log of in-game state reported by Brawlback ASM.
+The user launches <b>Ishiiruka</b> and selects an .iso of Brawl to emulate. Upon lauching the emulation of Brawl, Ishiiruka injects the modifications made by <b> Brawlback ASM </b>. As the user interacts with the game, information is exchanged between Ishiiruka and the Brawlback SSBB ASM code. As a user begins an online match, Ishiiruka starts a log of in-game state reported by Brawlback ASM.
 
 
 ## Commonly Asked Questions
