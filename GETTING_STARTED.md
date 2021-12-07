@@ -68,3 +68,4 @@ Via [EXI communication](https://github.com/WhiteTPoison5/Ishiiruka/blob/slippi/S
 * [Dolphin Memory Engine](https://github.com/aldelaro5/Dolphin-memory-engine) - A RAM search program designed to search, track, and edit the emulated memory of the Dolphin emulator during runtime.
 * [CodeWrite](https://github.com/TheGag96/CodeWrite/) - Convert PPC ASM code to/from C2 codes.
 * [VSDSync](https://cdn.discordapp.com/attachments/653828058079297557/857446879406981120/VSDSync-0.1.3.2_2021reupload.zip) - A collection of utilities and scripts to automate updating your virtual SD card.
+* [GCTRealMate](https://github.com/WhiteTPoison5/brawlback-asm/blob/master/Build/GCTRM/GCTRealMate.exe) - An application to generate cheats for Brawl based on provided ASM in txt files.
