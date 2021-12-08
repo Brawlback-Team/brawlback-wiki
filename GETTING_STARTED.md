@@ -15,10 +15,10 @@ This wiki is a fork of the [Slippi-wiki](https://github.com/project-slippi/slipp
 ### The Project
 The Brawlback project is comprised of a number of different applications, each with their own purpose. Below is an overview of each of these applications function, and their relevant technologies.
 
-<b> [Ishiiruka](https://github.com/WhiteTPoison5/Ishiiruka) </b> - A modified version of the Dolphin emulator. This project is responsible for handling things like: communication with the matchmaking server, passing external data to the emulated game, and playing replays. 
+<b> [Ishiiruka](https://github.com/Brawlback-Team/Ishiiruka) </b> - A modified version of the Dolphin emulator. This project is responsible for handling things like: communication with the matchmaking server, passing external data to the emulated game, and playing replays. 
 <br> <i> Languages: </i> C++ 
 
-<b> [Brawlback SSBB ASM](https://github.com/WhiteTPoison5/brawlback-asm) </b> - A series of ASM mods that are applied to Brawl in order make Brawlback work.
+<b> [Brawlback SSBB ASM](https://github.com/Brawlback-Team/brawlback-asm) </b> - A series of ASM mods that are applied to Brawl in order make Brawlback work.
 <br> <i> Languages: </i> PPC Assembly
 
 ### The Workflow
@@ -29,11 +29,19 @@ The user launches <b>Ishiiruka</b> and selects an .iso of Brawl to emulate. Upon
 ## Commonly Asked Questions
 > "Where is the rollback code located?"  
 
-Rollback is accomplished by work done between the [Brawlback ASM](https://github.com/WhiteTPoison5/brawlback-asm/search?p=1&q=rollback&unscoped_q=rollback) code and the [Ishiiruka](https://github.com/WhiteTPoison5/Ishiiruka/search?q=rollback&unscoped_q=rollback) code.
+Rollback is accomplished by work done between the [Brawlback ASM](https://github.com/Brawlback-Team/brawlback-asm/search?p=1&q=rollback&unscoped_q=rollback) code and the [Ishiiruka](https://github.com/Brawlback-Team/Ishiiruka/search?q=rollback&unscoped_q=rollback) code.
 
 > "How is data moved between the game (assembly) and the emulator?"
 
-Via [EXI communication](https://github.com/WhiteTPoison5/Ishiiruka/blob/slippi/Source/Core/Core/HW/EXI_DeviceSlippi.cpp). An example of such is demonstrated in [this video](https://www.youtube.com/watch?v=NOq49h0tkBI) by Fizzi.
+Via [EXI communication](https://github.com/Brawlback-Team/Ishiiruka/blob/slippi/Source/Core/Core/HW/EXI_DeviceSlippi.cpp). An example of such is demonstrated in [this video](https://www.youtube.com/watch?v=NOq49h0tkBI) by Fizzi.
+
+> When will BrawlBack be ready for a public release?
+
+When it passes the quality control gates. AKA: when it's ready.
+
+> What will the UI look like? Are you going to reuse Brawl's matchmaking UI?
+
+Unknown at the moment. The current plan is to reutilize as much of the UI as possible.
 
 ## Guides & Resources
 
@@ -68,4 +76,4 @@ Via [EXI communication](https://github.com/WhiteTPoison5/Ishiiruka/blob/slippi/S
 * [Dolphin Memory Engine](https://github.com/aldelaro5/Dolphin-memory-engine) - A RAM search program designed to search, track, and edit the emulated memory of the Dolphin emulator during runtime.
 * [CodeWrite](https://github.com/TheGag96/CodeWrite/) - Convert PPC ASM code to/from C2 codes.
 * [VSDSync](https://cdn.discordapp.com/attachments/653828058079297557/857446879406981120/VSDSync-0.1.3.2_2021reupload.zip) - A collection of utilities and scripts to automate updating your virtual SD card.
-* [GCTRealMate](https://github.com/WhiteTPoison5/brawlback-asm/blob/master/Build/GCTRM/GCTRealMate.exe) - An application to generate cheats for Brawl based on provided ASM in txt files.
+* [GCTRealMate](https://github.com/Brawlback-Team/brawlback-asm/blob/master/Build/GCTRM/GCTRealMate.exe) - An application to generate cheats for Brawl based on provided ASM in txt files.
