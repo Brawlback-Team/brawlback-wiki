@@ -15,11 +15,11 @@ This wiki is a fork of the [Slippi-wiki](https://github.com/project-slippi/slipp
 ### The Project
 The Brawlback project is comprised of a number of different applications, each with their own purpose. Below is an overview of each of these applications function, and their relevant technologies.
 
-<b> [Ishiiruka](https://github.com/Brawlback-Team/Ishiiruka) </b> - A modified version of the Dolphin emulator. This project is responsible for handling things like: communication with the matchmaking server, passing external data to the emulated game, and playing replays. 
+<b> [Dolphin](https://github.com/Brawlback-Team/dolphin) </b> - A modified version of the Dolphin emulator. This project is responsible for handling things like: communication with the matchmaking server, passing external data to the emulated game, and playing replays. 
 <br> <i> Languages: </i> C++ 
 
 <b> [Brawlback SSBB ASM](https://github.com/Brawlback-Team/brawlback-asm) </b> - A series of ASM mods that are applied to Brawl in order make Brawlback work.
-<br> <i> Languages: </i> PPC Assembly
+<br> <i> Languages: </i> PPC Assembly, C++
 
 ### The Workflow
 
