@@ -13,6 +13,10 @@ At the moment, each replay file (\*.brba), contains information about the follow
   - Frame number currently on, both consistent (starts at end of count down) and persistent (starts at stage load).
   - The inputs of each player.
   - The character each player is playing.
-  - Inputs.
   - The position of the character.
   - The damage taken and stock count.
+
+All this data is sent between the emulator, the game, and the disk in a UBJSON format.
+
+## Menuing
+The replay data is stripped from each replay file and injected into the game to replace the vanilla replays in the replay menu. Currently, it will do this for an infinite number of replays. This will likely crash the game, so it should be figured out what the maximum number of replays is and updated to conceed to that number with a message somehow that says to go to the launcher for the rest.
