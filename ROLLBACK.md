@@ -8,7 +8,7 @@ Rollback in Brawl is implemented using a method similar to [Slippi](https://gith
 
 ![image](https://user-images.githubusercontent.com/29901514/198723833-ebe2ec62-cca0-4edf-89fe-58cd6b2c5b66.png)
 
-Rollback implementation is **mostly finished at this point**. The biggest gap in this area is in savestates, and if anyone is looking to help with the netcode I would suggest looking at those instead.
+The rollback implementation is **mostly finished at this point**. The biggest gap in this area is in savestates, and if anyone is looking to help with the netcode I would suggest looking at those instead.
 
 ## Savestates in Brawl
 Savestates are currently **broken** and **desync** the game. A direct quote from PiNE suffices to explain the current predicement with savestates: "Savestates can be slow when the amount of memory they copy to/from the game is too large. We want to be able to copy all relevant gamestate in (ideally) about 1 millisecond. Getting closer to 2ms per copy is pushing it, but is still alright. Anything above 2ms per copy is too slow. (Note: on my cpu (i7-9750H), ~21mb savestate takes ~2ms to copy. Anything below 10mb would be ideal, but if it gets below 15mb i’d consider that usable)
