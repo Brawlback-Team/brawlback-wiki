@@ -16,7 +16,7 @@ At the moment, each replay file (\*.brba), contains information about the follow
   - The position of the character.
   - The damage taken and stock count.
 
-Recording is done by injecting C++ codes; once at the end of the 3...2...1... timer to collect information about the game itself, and at the beginning of each frame to collect the frame data. After collecting this data in the form of objects, a C++ code sends the data over EXI to the emulator where it's added to an existing UBJSON created at the start of the game. This UBJSON is then saved to the disk once the match ends.
+Recording is done by injecting C++ codes; once at the end of the 3...2...1... timer to collect information about the game itself, and at the beginning of each frame to collect the frame data. After collecting this data in the form of objects, a C++ code sends the data over EXI to the emulator where it's added to an existing UBJSON file created at the start of the game. This file is then saved to the disk once the match ends.
 
 ## Playback
 **No work has been done on playback as of yet**, though theoretically it should just be the inverse of recording the data.
