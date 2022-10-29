@@ -11,5 +11,21 @@ Rollback in Brawl is implemented using a method similar to [Slippi](https://gith
 The rollback implementation is **mostly finished at this point**. The biggest gap in this area is in savestates, and if anyone is looking to help with the netcode I would suggest looking at those instead.
 
 ## Savestates in Brawl
-Savestates are currently **broken** and **desync** the game. A direct quote from PiNE suffices to explain the current predicement with savestates: "Savestates can be slow when the amount of memory they copy to/from the game is too large. We want to be able to copy all relevant gamestate in (ideally) about 1 millisecond. Getting closer to 2ms per copy is pushing it, but is still alright. Anything above 2ms per copy is too slow. (Note: on my cpu (i7-9750H), ~21mb savestate takes ~2ms to copy. Anything below 10mb would be ideal, but if it gets below 15mb i’d consider that usable)
+Brawl state is currently maintained via a collection of heaps that must be sifted through for a minimal savestate. These heaps are named:
+
+- System 
+- Fighter1Instance 
+- Fighter2Instance 
+- InfoInstance 
+- InfoExtraResource 
+- InfoResource 
+- Physics 
+- WiiPad 
+- Fighter1Resource 
+- Fighter2Resource 
+- FighterEffect 
+- FighterTechqniq 
+- GameGlobal
+
+Currently, we save every heap give or take a few sections of them to save space, however; they are currently **broken** and **desync** the game. A direct quote from PiNE suffices to explain the current predicement with savestates: "Savestates can be slow when the amount of memory they copy to/from the game is too large. We want to be able to copy all relevant gamestate in (ideally) about 1 millisecond. Getting closer to 2ms per copy is pushing it, but is still alright. Anything above 2ms per copy is too slow. (Note: on my cpu (i7-9750H), ~21mb savestate takes ~2ms to copy. Anything below 10mb would be ideal, but if it gets below 15mb i’d consider that usable)
 Savestates can desync when particular regions of memory that hold data that the game relies on to compute the next frame (relevant gamestate) is not included in the regions copied during rollbacks." A full explanation can be found [here](https://docs.google.com/document/d/1JYE3UB3GcUUH0nWNdq04xvFxBocS4NM8rcHxDzx6bmc).
