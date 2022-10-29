@@ -6,7 +6,7 @@ Rollback is a form of netcode that attempts to aid in fixing some of the issues 
 ## Rollback in Brawl
 Rollback in Brawl is implemented using a method similar to [Slippi](https://github.com/project-slippi); code is injected in the game via codes run in the backend of a custom build of Dolphin. In fact, most of the infastructure is very similar to Slippi. However, where we diverge is the method by which we reach this goal; while Melee is mostly pure ASM, Brawl has the benefit of being able to leverage injecting C++ code. This allows for smoother looking and acting codesets. See below for a diagram of how the injections function:
 
-![image](https://user-images.githubusercontent.com/29901514/198723833-ebe2ec62-cca0-4edf-89fe-58cd6b2c5b66.png)
+![white](https://user-images.githubusercontent.com/29901514/198829504-45f73473-8e0f-41b4-ab5d-c20cfff366af.png)
 
 The rollback implementation is **mostly finished at this point**. The biggest gap in this area is in savestates, and if anyone is looking to help with the netcode I would suggest looking at those instead.
 
