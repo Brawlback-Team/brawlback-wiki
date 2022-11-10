@@ -37,20 +37,20 @@ loc_0x18:
   mtcr r12  
 }  
 
-**Explanation**
+**Explanation**  
 To write ASM codes for GCTRM to process, you simply write the PPC at the hooked location defined by the line "HOOK @ ${Address}" and between curly brackets much like a definition in C. This runs the ASM at the location defined by the hook.
 
-**How GCTRM Achieves This**
+**How GCTRM Achieves This**  
 GCTRM reads the PPC defined and converts it into a Gecko code.
-
-**Example 2**
-int 0x91E80 @ $80421B54
-
-**Explanation**
-This writes a 4 byte value 0x00091E80 to 0x80421B54.
-
-**How GCTRM Achieves This**
-GCTRM reads the injection and converts it into a RAM write Gecko code.
+  
+**Example 2**  
+int 0x91E80 @ $80421B54  
+  
+**Explanation**  
+This writes a 4 byte value 0x00091E80 to 0x80421B54.  
+  
+**How GCTRM Achieves This**  
+GCTRM reads the injection and converts it into a RAM write Gecko code.  
 
 ## Macros
 
