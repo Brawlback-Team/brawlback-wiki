@@ -21,7 +21,7 @@ Note: Anything written in a block of hashtags like above gets commented out.
 GCTRM reads the codes within the hexadecimal format and converts it to a format that will be inserted into the GCT file later.  
 
 ## ASM
-**Example 1**
+**Example 1**  
 ###################################################  
 Allow Pausing When Set to Off v3 [standardtoaster]  
 ###################################################  
