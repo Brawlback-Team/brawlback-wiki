@@ -5,16 +5,16 @@ Brawl codes modding is traditionally an arduous process that involves writing AS
 
 
 ## Gecko Codes
-**Example**
-#################
-Infinite Replays
-#################
-\* 040E5DE8 60000000
-\* 04953184 60000000
-\* 04953224 60000000
+**Example**  
+#################  
+Infinite Replays  
+#################  
+\* 040E5DE8 60000000  
+\* 04953184 60000000  
+\* 04953224 60000000  
 
-**Explanation**
-To write pure Gecko codes for GCTRM to process, you simply write the code and add an asterisk and a space before every line of hexadecimal pairs.
+**Explanation**  
+To write pure Gecko codes for GCTRM to process, you simply write the code and add an asterisk and a space before every line of hexadecimal pairs.  
 Note: Anything written in a block of hashtags like above gets commented out.
 
 ## ASM
