@@ -51,6 +51,8 @@ This writes a 4 byte value 0x00091E80 to 0x80421B54.
   
 **How GCTRM Achieves This**  
 GCTRM reads the injection and converts it into a RAM write Gecko code.  
+  
+_For more examples, examine the P+ source code and ask for clarification in the Brawl Modding Discord._
 
 ## Macros
 
