@@ -54,5 +54,3 @@ GCTRM reads the injection and converts it into a RAM write Gecko code.
   
 _For more examples, examine the P+ source code and ask for clarification in the Brawl Modding Discord._
 
-## Macros
-
