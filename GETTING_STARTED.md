@@ -29,7 +29,7 @@ The user launches <b>Dolphin</b> and selects an .iso of Brawl to emulate. Upon l
 ## Commonly Asked Questions
 > "Where is the rollback code located?"  
 
-Rollback is accomplished by work done between the [Brawlback ASM](https://github.com/Brawlback-Team/brawlback-asm/search?p=1&q=rollback&unscoped_q=rollback) code and the [Ishiiruka](https://github.com/Brawlback-Team/Ishiiruka/search?q=rollback&unscoped_q=rollback) code.
+Rollback is accomplished by work done between the [Brawlback ASM](https://github.com/Brawlback-Team/brawlback-asm/search?p=1&q=rollback&unscoped_q=rollback) code and the [Dolphin](https://github.com/Brawlback-Team/Dolphin/search?q=rollback&unscoped_q=rollback) code.
 
 > "How is data moved between the game (assembly) and the emulator?"
 
