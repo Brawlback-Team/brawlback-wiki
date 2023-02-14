@@ -23,17 +23,17 @@ The Brawlback project is comprised of a number of different applications, each w
 
 ### The Workflow
 
-The user launches <b>Ishiiruka</b> and selects an .iso of Brawl to emulate. Upon lauching the emulation of Brawl, Ishiiruka injects the modifications made by <b> Brawlback ASM </b>. As the user interacts with the game, information is exchanged between Ishiiruka and the Brawlback SSBB ASM code. As a user begins an online match, Ishiiruka starts a log of in-game state reported by Brawlback ASM.
+The user launches <b>Dolphin</b> and selects an .iso of Brawl to emulate. Upon lauching the emulation of Brawl, Dolphin injects the modifications made by <b> Brawlback ASM </b> as placed on an SD card. As the user interacts with the game, information is exchanged between Dolphin and the Brawlback SSBB ASM code. As a user begins an online match, Dolphin starts a log of in-game state reported by Brawlback ASM.
 
 
 ## Commonly Asked Questions
 > "Where is the rollback code located?"  
 
-Rollback is accomplished by work done between the [Brawlback ASM](https://github.com/Brawlback-Team/brawlback-asm/search?p=1&q=rollback&unscoped_q=rollback) code and the [Ishiiruka](https://github.com/Brawlback-Team/Ishiiruka/search?q=rollback&unscoped_q=rollback) code.
+Rollback is accomplished by work done between the [Brawlback ASM](https://github.com/Brawlback-Team/brawlback-asm/search?p=1&q=rollback&unscoped_q=rollback) code and the [Dolphin](https://github.com/Brawlback-Team/Dolphin/search?q=rollback&unscoped_q=rollback) code.
 
 > "How is data moved between the game (assembly) and the emulator?"
 
-Via [EXI communication](https://github.com/Brawlback-Team/Ishiiruka/blob/slippi/Source/Core/Core/HW/EXI_DeviceSlippi.cpp). An example of such is demonstrated in [this video](https://www.youtube.com/watch?v=NOq49h0tkBI) by Fizzi.
+Via [EXI communication](https://github.com/Brawlback-Team/dolphin/blob/master/Source/Core/Core/HW/EXI/EXIBrawlback.cpp). An example of such is demonstrated in [this video](https://www.youtube.com/watch?v=NOq49h0tkBI) by Fizzi.
 
 > When will BrawlBack be ready for a public release?
 
