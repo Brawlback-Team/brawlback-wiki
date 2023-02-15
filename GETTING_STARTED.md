@@ -56,6 +56,8 @@ Unknown at the moment. The current plan is to reutilize as much of the UI as pos
 * [Assembler Tutorial](http://wiibrew.org/wiki/Assembler_Tutorial) - A wii modding specific guide to PPC, and its instructions. 
 * [PowerPC Instruction Set](https://www.ibm.com/support/knowledgecenter/en/ssw_aix_71/assembler/idalangref_ins_set.html) - Indepth documentation about PowerPC instructions and their behavior.
 * [PowerPC Instruction Set Reference Card](http://www.tentech.ca/downloads/other/PPC_Quick_Ref_Card-Rev1_Oct12_2010.pdf) - An overview of various PowerPC instructions and their behavior.
+* [W3Schools C++ Tutorial](https://www.w3schools.com/cpp/) - A quick overview of the basic C++ programming standard intended for preexisting developers.
+* [CPPReference](https://en.cppreference.com/w/) - The complete C++ and C languages standard reference.
 ### Rollback
 * [GGPO Article on Rollback](https://drive.google.com/file/d/1cV0fY8e_SC1hIFF5E1rT8XRVRzPjU8W9/view) - An article from GGPO on how rollback functions specific to emulators.
 * [Rollback Pseudocode](https://gist.github.com/rcmagic/f8d76bca32b5609e85ab156db38387e9) - Some pseudocode used to show the basics of rollback.
