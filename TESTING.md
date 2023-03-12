@@ -16,8 +16,8 @@ As of 3/12/2023, a CI/CD protocol has been completed for both our Dolphin and AS
 * Add the pf folder from P+ into SDCard/Project+.
   - Mount the SD Card from the P+ build; this is usually the sd.raw file located in the Wii folder under User.
   - Copy the pf folder from this build into the above folder.
-* Place your Lylat.json file into the root of the Dolphin folder where the binary is.
-  - This can be obtained by signing up for [lylat.gg](https://lylat.gg/) and then going [downloading the user file for Lylat](https://lylat.gg/users/enable).
+* Place your Lylat.json file into the User folder of the Dolphin directory.
+  - This can be obtained by signing up for [lylat.gg](https://lylat.gg/) and then [downloading the user file for Lylat](https://lylat.gg/users/enable).
 * Open and setup the Dolphin build.
   - Set the appropriate graphics setting for your OS and graphics card. IE DX11 for Nvidia cards on Windows.
   - Add the folder where the ISO and launchers (from step 1) sits under Paths.
