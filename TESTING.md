@@ -14,7 +14,8 @@ As of 3/12/2023, a CI/CD protocol has been completed for both our Dolphin and AS
   - If you are unsure whether you have this, doublecheck with a member of the developer team in the #testing-general chat of the Brawlback discord.
 * Unzip the artifacts with the program of your choice, we recommend 7Zip.
 * Add the pf folder from P+ into SDCard/Project+.
-  - Mount the SD Card from the P+ build; this is usually the sd.raw file located in the Wii folder under User.  
+  - Mount the SD Card from the P+ build; this is usually the sd.raw file located in the Wii folder under User.
+  - Copy the pf folder from this build into the above folder.
 * Open and setup the Dolphin build.
   - Set the appropriate graphics setting for your OS and graphics card. IE DX11 for Nvidia cards on Windows.
   - Add the folder where the ISO and launchers (from step 1) sits under Paths.
