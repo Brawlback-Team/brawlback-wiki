@@ -9,7 +9,7 @@ As of 3/12/2023, a CI/CD protocol has been completed for both our Dolphin and AS
   - The folder you need is called `Launchers` in the root this new directory after cloning.
 * Download the artifacts from [Dolphin](https://github.com/Brawlback-Team/dolphin) and [ASM](https://github.com/Brawlback-Team/brawlback-asm).
   - If there is an associated PR for both, download both artifacts from the appropriate PRs. If there isn't one for one of either, download the most recent master artifact. This should be accessible via a green Checkmark on the **most recent commit** for that PR. If the checkmark for that commit is a red X, wait for the dev to update the PR so that it builds correctly.
-  - Make sure to read the PR notes for ASM; it should be pretty easy to deduce if it's a PR related to Replays or the Netcode. **Only download the SD card for whatever feature is being tested, as the Netcode codes cannot coexist with the Replay codes in a testing environment currently; this is being addressed in a PR down the line.**
+  - Make sure to read the PR notes for ASM; it should be pretty easy to deduce if it's a PR related to Replays or the Netcode. **Only test the SD card for whatever feature is being tested, as the Netcode codes cannot coexist with the Replay codes in a testing environment currently; this is being addressed in a PR down the line. You will still need to ensure that changes made to one SD Card type doesn't break the others, I just isolated them for testing.**
 * Ensure you have an appropriate Brawl REV1 ISO with a valid hash.
   - If you are unsure whether you have this, doublecheck with a member of the developer team in the #testing-general chat of the Brawlback discord.
 * Unzip the artifacts with the program of your choice, we recommend 7Zip.
