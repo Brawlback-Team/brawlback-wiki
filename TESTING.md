@@ -1,7 +1,7 @@
 # Testing Documentation
 
 ## Introduction
-As of 3/12/2023, a CI/CD protocol has been completed for both our Dolphin and ASM repositories. This means a more clear direction for testing can now be laid out, allowing for more QA/Testing oriented folks to be of use!  
+As of 3/12/2023, a CI/CD protocol has been completed for both our Dolphin and ASM repositories. This means a more clear direction for testing can now be laid out, allowing for more QA/Testing oriented folks to be of use! Please note that despite there being more accessible builds for QA purposes, I cannot attribute any sort of clean date for release or attest to anything working from a networking perspective.  
 
 ## Testing Steps
 * If this is your first time testing, you will need to currently clone the ASM repo in order to obtain the launchers for a later step. Skip this step otherwise.
