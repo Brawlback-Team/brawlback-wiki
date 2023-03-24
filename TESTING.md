@@ -3,6 +3,8 @@
 ## Introduction
 As of 3/12/2023, a CI/CD protocol has been completed for both our Dolphin and ASM repositories. This means a more clear direction for testing can now be laid out, allowing for more QA/Testing oriented folks to be of use! Please note that despite there being more accessible builds for QA purposes, I cannot attribute any sort of clean date for release or attest to anything working from a networking perspective.  
 
+**!!THIS IS FOR DEVELOPMENT PURPOSES ONLY BRAWLBACK IS CURRENTLY NOT PLAYABLE!!**  
+
 ## Testing Steps
 * If this is your first time testing, you will need to currently clone the ASM repo in order to obtain the launchers for a later step. Skip this step otherwise.
   - Enter the command `git clone https://github.com/Brawlback-Team/brawlback-asm.git` in a terminal under a directory you wish for a new folder `brawlback-asm` with the code to end up in.
