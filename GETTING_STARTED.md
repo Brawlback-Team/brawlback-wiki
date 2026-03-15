@@ -15,29 +15,30 @@ This wiki is a fork of the [Slippi-wiki](https://github.com/project-slippi/slipp
 ### The Project
 The Brawlback project is comprised of a number of different applications, each with their own purpose. Below is an overview of each of these applications function, and their relevant technologies.
 
-<b> [Dolphin](https://github.com/Brawlback-Team/dolphin) </b> - A modified version of the Dolphin emulator. This project is responsible for handling things like: communication with the matchmaking server, passing external data to the emulated game, and playing replays. 
+<b> [P+ Dolphin](https://github.com/Brawlback-Team/brawlback-asm/tree/project-plus-fork) </b> - A modified version of the Dolphin emulator. This project is responsible for handling things like: communication with the matchmaking server, passing external data to the emulated game, and playing replays. 
 <br> <i> Languages: </i> C++ 
 
-<b> [Brawlback SSBB ASM](https://github.com/Brawlback-Team/brawlback-asm) </b> - A series of ASM mods that are applied to Brawl in order make Brawlback work.
+<b> [Brawlback Syringe Module](https://github.com/Brawlback-Team/Project-Plus-Dolphin/tree/rollback) </b> - A series of ASM mods that are applied to Brawl in order make Brawlback work.
 <br> <i> Languages: </i> PPC Assembly, C++
 
 ### The Workflow
 
 The user launches <b>Dolphin</b> and selects an .iso of Brawl to emulate. Upon lauching the emulation of Brawl, Dolphin injects the modifications made by <b> Brawlback ASM </b> as placed on an SD card. As the user interacts with the game, information is exchanged between Dolphin and the Brawlback SSBB ASM code. As a user begins an online match, Dolphin starts a log of in-game state reported by Brawlback ASM.
 
-
 ## Commonly Asked Questions
 > "Where is the rollback code located?"  
 
-Rollback is accomplished by work done between the [Brawlback ASM](https://github.com/Brawlback-Team/brawlback-asm/search?p=1&q=rollback&unscoped_q=rollback) code and the [Dolphin](https://github.com/Brawlback-Team/Dolphin/search?q=rollback&unscoped_q=rollback) code.
+Rollback is accomplished by work done between the [Brawlback Syringe Module](https://github.com/Brawlback-Team/brawlback-asm/blob/project-plus-fork/Brawlback-Online/source/Rollback_Hooks.cpp) code and the [P+ Dolphin](https://github.com/Brawlback-Team/Project-Plus-Dolphin/blob/rollback/Source/Core/Core/NetPlayClient.cpp) code.
 
 > "How is data moved between the game (assembly) and the emulator?"
 
-Via [EXI communication](https://github.com/Brawlback-Team/dolphin/blob/master/Source/Core/Core/HW/EXI/EXIBrawlback.cpp). An example of such is demonstrated in [this video](https://www.youtube.com/watch?v=NOq49h0tkBI) by Fizzi.
+Via [EXI communication](https://github.com/Brawlback-Team/brawlback-asm/blob/project-plus-fork/Brawlback-Online/source/EXI_hooks.cpp). An example of such is demonstrated in [this video](https://www.youtube.com/watch?v=NOq49h0tkBI) by Fizzi.
 
 > When will BrawlBack be ready for a public release?
 
-When it passes the quality control gates. AKA: when it's ready.
+Alpha - There will be a initial Alpha release which has rollback netcode but does _not_ have a launcher application, matchmaking, or replays. It will be exactly how current netplay functions, except with rollback netcode instead of delay based.
+
+Initial full release - When it passes the quality control gates. __AKA: when it's ready.__
 
 > What will the UI look like? Are you going to reuse Brawl's matchmaking UI?
 
@@ -58,6 +59,7 @@ Unknown at the moment. The current plan is to reutilize as much of the UI as pos
 * [PowerPC Instruction Set Reference Card](http://www.tentech.ca/downloads/other/PPC_Quick_Ref_Card-Rev1_Oct12_2010.pdf) - An overview of various PowerPC instructions and their behavior.
 * [W3Schools C++ Tutorial](https://www.w3schools.com/cpp/) - A quick overview of the basic C++ programming standard intended for preexisting developers.
 * [CPPReference](https://en.cppreference.com/w/) - The complete C++ and C languages standard reference.
+* [Syringe Wiki](https://syriinge.sammihusky.com/) - The wiki for Syringe, a runtime hooking library.
 ### Rollback
 * [GGPO Article on Rollback](https://drive.google.com/file/d/1cV0fY8e_SC1hIFF5E1rT8XRVRzPjU8W9/view) - An article from GGPO on how rollback functions specific to emulators.
 * [Rollback Pseudocode](https://gist.github.com/rcmagic/f8d76bca32b5609e85ab156db38387e9) - Some pseudocode used to show the basics of rollback.
