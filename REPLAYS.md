@@ -9,25 +9,6 @@ When replays are saved, they are represented in the file system as the infamous 
 The encryption method used for both the first half and the rest of the body is is [**AES-256-CBC with no padding**](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard). The IV for the first 0x10 bytes of the header are different from the rest of the file, but for some reason it's replaced on top of the encrypted file. *No, I will not be giving out the key or IV, for obvious reasons.*  
   
 The compression method used on the body (not including the header, AKA 0x20 bytes after the start of the file after decryption) is **LZ11**, a varient of **LZSS**. Credit to [**@magical**](https://github.com/magical) for the algorithm found [here](https://github.com/magical/nlzss).
-## Recording Schema
-At the moment, each replay file (\*.brba), contains information about the following:
-- The frame the game starts on.
-- The RNG values.
-- The stage the match was on.
-- The number of players in the match.
-- A buffer holding the scene information.
-- Frame data
-  - Frame number currently on, both consistent (starts at end of count down) and persistent (starts at stage load).
-  - The inputs of each player.
-  - The character each player is playing.
-  - The position of the character.
-  - The damage taken and stock count.
-  - The items spawned and where.
 
-Recording is done by injecting C++ codes; once at the end of the 3...2...1... timer to collect information about the game itself, and at the beginning of each frame to collect the frame data. After collecting this data in the form of objects, a C++ code sends the data over EXI to the emulator where it's added to an existing UBJSON file created at the start of the game. This file is then saved to the disk once the match ends.
-
-## Playback
-After setting up the replay via EXI, each frame inputs are pulled via EXI and applied to the pad. At the end of the replay, it returns to menus. There is currently a bug with this where inputs in the loading screen contribute to desyncs due to an input leak.
-
-## Menuing
-The replay data is stripped from each replay file and injected into the game to replace the vanilla replays in the replay menu. Currently, it will do this for an infinite number of replays. This will likely crash the game, so it should be figured out what the maximum number of replays is and updated to conceed to that number with a message somehow that says to go to the launcher for the rest.
+## Complications with Rollback
+**White T write stuff here!** :3
