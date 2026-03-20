@@ -10,10 +10,6 @@ Rollback in Brawl is implemented using a method similar to [Slippi](https://gith
 
 ![white](https://user-images.githubusercontent.com/29901514/198829504-45f73473-8e0f-41b4-ab5d-c20cfff366af.png)
 
-### Alpha
-
-**WhiteT write stuff here!** :3
-
 ## Savestates in Brawl
 - All memory at the launch of the game is marked as read-only. As the game tries to make
 writes to memory over the course of the game, it marks the page that memory was on
