@@ -1,6 +1,6 @@
 # Current state of affairs 2026 / FAQ 
 
-## What will the Alpha release look like?,
+## What will the Alpha release look like?
 The Alpha release will be a PR into P+ Dolphin with an additional syringe plugin. In non nerd speak this will be a custom version of P+ Dolphin that includes the rollback code, whether or not it gets added to the official P+ Dolphin release or comes out as a separate release is TBD.
 
 It will be like normal netplay where you'll open Netplay, host a lobby, and send a connect code to your opponent. Within the Netplay window there will be button to toggle between Rollback and Delay Based, using Rollback mode will let you play the game with Rollback netcode!
