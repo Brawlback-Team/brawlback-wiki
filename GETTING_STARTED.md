@@ -36,7 +36,7 @@ Via [EXI communication](https://github.com/Brawlback-Team/brawlback-asm/blob/pro
 
 > When will BrawlBack be ready for a public release?
 
-Alpha - There will be a initial Alpha release which has rollback netcode but does _not_ have a launcher application, matchmaking, or replays. It will be exactly how current netplay functions, except with rollback netcode instead of delay based.
+Alpha - There will be a initial Alpha release which has rollback netcode but does _not_ have a launcher application, matchmaking, or replays. It will be exactly how current netplay functions, except with rollback netcode instead of delay based. __No current ETA__
 
 Initial full release - When it passes the quality control gates. __AKA: when it's ready.__
 
